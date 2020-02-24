@@ -29,6 +29,7 @@ public class TestApplication {
 					window.frmMaFentre.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
+					
 				}
 			}
 		});
