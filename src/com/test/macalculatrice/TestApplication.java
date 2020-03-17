@@ -98,6 +98,9 @@ public class TestApplication {
 			case ("/"): 
 				x = Math.round((Double.parseDouble(precedent) / Double.parseDouble(actuel))*100); 
 				x = x/100;
+				if(Double.parseDouble(actuel) == 0) {
+					x = 0;
+				}		
 				actuel = Double.toString(x);
 				break;
 		}
